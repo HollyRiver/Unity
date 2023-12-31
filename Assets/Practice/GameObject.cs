@@ -20,6 +20,6 @@ public class GameObject : MonoBehaviour
         Vector3 vec3 = new Vector3(
             Input.GetAxis("Horizontal")*0.01f,
             Input.GetAxis("Vertical")*0.01f, 0);
-        transform.Translate(vec3);
+        transform.Translate(vec3 * Time.deltaTime * 100);
     }
 }
