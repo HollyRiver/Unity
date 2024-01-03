@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameObject : MonoBehaviour
+public class ObjectsCtrl : MonoBehaviour
 {
     void Start()
     {
